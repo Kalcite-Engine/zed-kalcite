@@ -1,0 +1,15 @@
+id = "kalcite"
+name = "Kalcite"
+version = "0.3.0"
+schema_version = 1
+authors = ["DrapNard <drapnard@proton.me>"]
+description = "Kalcite language support with Tree-sitter and kalcite-lsp"
+repository = "https://github.com/Kalcite-Engine/zed-kalcite"
+
+[grammars.kalcite]
+repository = "https://github.com/Kalcite-Engine/tree-sitter-kalcite"
+rev = "181291a2966d1a3782991f5336ebe85d35b40d1f"
+
+[language_servers.kalcite-lsp]
+name = "Kalcite Language Server"
+languages = ["Kalcite"]

@@ -1,0 +1,13 @@
+[package]
+name = "zed-kalcite"
+version = "0.3.0"
+edition = "2024"
+license = "MIT"
+description = "Zed language and LSP extension for Kalcite"
+repository = "https://github.com/Kalcite-Engine/zed-kalcite"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
