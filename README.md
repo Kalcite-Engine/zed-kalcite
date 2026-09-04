@@ -1,7 +1,8 @@
 # Kalcite for Zed
 
-Zed extension for Kalcite: syntax highlighting, code outline, brackets,
-indentation, text objects and `kalcite-lsp` integration.
+Zed extension for Kalcite: syntax highlighting (including `break` and
+`defer`), code outline, brackets, indentation, text objects and
+`kalcite-lsp` integration.
 
 Install Kalcite through the Kallyup `developer` or `full` profile, then install
 this repository as a Zed development extension. The extension resolves
