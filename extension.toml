@@ -8,7 +8,7 @@ repository = "https://github.com/Kalcite-Engine/zed-kalcite"
 
 [grammars.kalcite]
 repository = "https://github.com/Kalcite-Engine/tree-sitter-kalcite"
-rev = "76141475cab1bd998a63ed3b21cb8c3e9f31330b"
+rev = "c4060603ddb1e7e62101da6632cfe81efc300f89"
 
 [language_servers.kalcite-lsp]
 name = "Kalcite Language Server"
