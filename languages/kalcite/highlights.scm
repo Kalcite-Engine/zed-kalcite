@@ -5,7 +5,7 @@
 (class_declaration name: (identifier) @type)
 (struct_declaration name: (identifier) @type)
 (function_declaration name: (identifier) @function)
-["class" "struct" "fn" "var" "const" "defer" "return" "extends"] @keyword
+["class" "struct" "fn" "var" "const" "defer" "return" "if" "else" "while" "use" "module" "extends"] @keyword
 "@" @attribute
 ["unsafe" "rust" "asm"] @keyword
 (native_body) @embedded
