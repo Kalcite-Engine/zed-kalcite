@@ -1,6 +1,6 @@
 id = "kalcite"
 name = "Kalcite"
-version = "0.3.2"
+version = "0.3.3"
 schema_version = 1
 authors = ["DrapNard <drapnard@proton.me>"]
 description = "Kalcite language support with Tree-sitter and kalcite-lsp"
