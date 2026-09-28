@@ -5,7 +5,8 @@ Zed extension for Kalcite: syntax highlighting (including `for`, `break`,
 `kalcite-lsp` integration. With the current LSP it provides completion and
 hover information for allocation-free `Text` APIs, including
 `Text.equals(value, "literal")`, `Text.starts_with(value, "prefix")`,
-`Text.ends_with(value, "suffix")`, and `Text.contains(value, "needle")`.
+`Text.ends_with(value, "suffix")`, `Text.contains(value, "needle")`, and
+`Text.index_of(value, "needle")` (first index, or `-1` when absent).
 
 Install Kalcite through the Kallyup `developer` or `full` profile, then install
 this repository as a Zed development extension. The extension resolves
