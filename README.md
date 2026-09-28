@@ -6,7 +6,8 @@ Zed extension for Kalcite: syntax highlighting (including `for`, `break`,
 hover information for allocation-free `Text` APIs, including
 `Text.equals(value, "literal")`, `Text.starts_with(value, "prefix")`,
 `Text.ends_with(value, "suffix")`, `Text.contains(value, "needle")`, and
-`Text.index_of(value, "needle")` (first index, or `-1` when absent).
+`Text.index_of(value, "needle")` (first index, or `-1` when absent), plus
+`Text.last_index_of(value, "needle")` (final index, or `-1` when absent).
 
 Install Kalcite through the Kallyup `developer` or `full` profile, then install
 this repository as a Zed development extension. The extension resolves
